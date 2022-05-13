@@ -1,0 +1,11 @@
+.uk-background-secondary {
+    background: #000000;
+}
+
+.uk-light .uk-text-muted {
+    color: rgba(255,255,255,.7) !important;
+}
+.uk-light .uk-heading-line > ::before,
+.uk-light .uk-heading-line > ::after {
+    border-bottom: 3px solid #e5e5e5;
+}
