@@ -1,11 +1,29 @@
 .uk-background-secondary {
-    background: #000000;
+    background: #000000d6;
 }
 
 .uk-light .uk-text-muted {
-    color: rgba(255,255,255,.7) !important;
+    color: rgba(255, 255, 255, .7) !important;
 }
-.uk-light .uk-heading-line > ::before,
-.uk-light .uk-heading-line > ::after {
+
+.uk-light .uk-heading-line> ::before,
+.uk-light .uk-heading-line> ::after {
     border-bottom: 3px solid #e5e5e5;
+}
+
+.uk-navbar-toggle {
+    min-height: 20px;
+    padding: 10px;
+}
+
+.uk-modal {
+    padding: 0;
+}
+
+.uk-light .uk-navbar-toggle {
+    color: white;
+}
+
+.uk-nav-primary>li>a {
+    color: white;
 }
