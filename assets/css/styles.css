@@ -1,0 +1,25 @@
+@import "uikit-reset.css";
+@import "responsive.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+html {
+    --PrimaryColor: #1e87f0;
+    --SecondaryColor: #fbda0c;
+    background-image: url(../images/water-3180041.jpg);
+    
+}
+
+html,
+h1,
+.uk-h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+.Block {
+    outline: 10px solid rgba(255, 255, 255, 0.75);
+}
+
+.Open {
+    color: white;
+}
